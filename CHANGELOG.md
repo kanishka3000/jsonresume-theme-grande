@@ -1,3 +1,22 @@
+# Changelog
+
+## [1.0.0] - 2025-12-27
+
+### Changed
+- Forked from jsonresume-theme-macchiato v1.1.0
+- Renamed to jsonresume-theme-grande
+- Increased font sizes for better readability:
+  - Paragraphs and list items: 11px → 14px
+  - h3: 15px → 16px
+  - h4: 13px → 15px
+  - h5: 12px → 14px
+  - h6: 11px → 13px
+  - Blockquotes: 11px → 14px
+
+---
+
+## Previous History (jsonresume-theme-macchiato)
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/biosan/jsonresume-theme-macchiato/compare/v1.0.0...v1.1.0) (2020-04-16)
 
