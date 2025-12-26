@@ -364,6 +364,16 @@ ul.two-column li {
   font-size: 14px;
 }
 
+.certificates-container .issuer {
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
+.certificates-container .date {
+  text-transform: none;
+  font-style: italic;
+}
+
 .education-container .location {
   padding-bottom: 6px;
   font-weight: 400;
