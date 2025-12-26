@@ -9,6 +9,13 @@
     "pretty": "prettier --write --ignore-path='*lock.json' '{src/**/*.{js,ts,json},./*{js,ts,json}}' ",
     "lint": "eslint *.js"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run pretty && npm run lint",
+      "pre-push": "npm run prepublishOnly"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/biosan/jsonresume-theme-macchiato"
@@ -26,6 +33,7 @@
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "husky": "~3.0.9",
     "jest": "^24.9.0",
     "jest-handlebars": "^1.0.1",
     "jest-image-snapshot": "^2.11.0",
