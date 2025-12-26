@@ -99,7 +99,7 @@ h2 {
 h3 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: .4px;
 }
 
@@ -110,7 +110,7 @@ h3.bold {
 h4 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 h4.bold {
@@ -120,7 +120,7 @@ h4.bold {
 h5 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 h5.italic {
@@ -130,7 +130,7 @@ h5.italic {
 h6 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 a {
@@ -149,11 +149,11 @@ a .fa-external-link {
 
 p,
 li {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 blockquote {
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: italic;
