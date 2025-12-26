@@ -278,6 +278,11 @@ ul.two-column li {
   overflow: hidden;
 }
 
+.full-width-content {
+  clear: both;
+  width: 100%;
+}
+
 .item {
   margin-bottom: 15px;
 }
